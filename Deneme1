@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kocaeli Beyaz Eşya Teknik Servis | Arıza Kaydı - 0530 543 60 28</title>
+  <meta name="description" content="Kocaeli (İzmit, Kartepe, Başiskele, Derince, Körfez, Gebze, Yuvacık) beyaz eşya teknik servis. Çamaşır, bulaşık, kurutma, buzdolabı. Hızlı arıza kaydı: 0530 543 60 28" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kocaeli Beyaz Eşya Teknik Servis" />
+  <meta property="og:description" content="Hızlı arıza kaydı • Aynı gün servis imkânı • 0530 543 60 28" />
+  <meta property="og:type" content="website" />
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Kocaeli Beyaz Eşya Teknik Servis",
+    "telephone":"+905305436028",
+    "areaServed":["İzmit","Kartepe","Başiskele","Derince","Körfez","Gebze","Yuvacık","Kocaeli"],
+    "serviceType":["Çamaşır Makinesi Servisi","Bulaşık Makinesi Servisi","Kurutma Makinesi Servisi","Buzdolabı Servisi"],
+    "url":""
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#0b1220; --card:#121b2e; --text:#e9eefc; --muted:#a9b6d6; --line:rgba(233,238,252,.12);
+      --accent:#4fd1c5; --accent2:#60a5fa; --danger:#fb7185;
+      --shadow: 0 14px 40px rgba(0,0,0,.35);
+      --r: 18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:radial-gradient(1200px 600px at 15% 10%, rgba(96,165,250,.22), transparent 60%),
+                                   radial-gradient(900px 500px at 80% 10%, rgba(79,209,197,.18), transparent 55%),
+                                   var(--bg); color:var(--text);}
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:22px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px; position:sticky; top:0; backdrop-filter: blur(10px); background: rgba(11,18,32,.6); border-bottom:1px solid var(--line); z-index:50}
+    .brand{display:flex;gap:10px;align-items:center}
+    .logo{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2)); box-shadow: var(--shadow)}
+    .brand h1{font-size:14px;margin:0;letter-spacing:.2px}
+    .brand p{margin:0;font-size:12px;color:var(--muted)}
+    .actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(18,27,46,.7); text-decoration:none; font-weight:650}
+    .btn:hover{transform: translateY(-1px); transition:.15s}
+    .btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2)); border:none; color:#06101e}
+    .btn.danger{background:rgba(251,113,133,.14); border-color:rgba(251,113,133,.28)}
+    .hero{padding:34px 0 16px}
+    .grid{display:grid; grid-template-columns: 1.2fr .8fr; gap:18px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}}
+    .card{background:rgba(18,27,46,.75); border:1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow)}
+    .card .pad{padding:18px}
+    .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+    @media(max-width:600px){.kpis{grid-template-columns:1fr}}
+    .kpi{border:1px solid var(--line); border-radius:16px; padding:12px; background:rgba(11,18,32,.35)}
+    .kpi b{display:block;font-size:15px}
+    .kpi span{color:var(--muted);font-size:12px}
+    h2{margin:0 0 10px;font-size:28px;letter-spacing:.2px}
+    .lead{color:var(--muted);line-height:1.55}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .chip{font-size:12px;color:var(--muted); border:1px solid var(--line); padding:8px 10px;border-radius:999px;background:rgba(11,18,32,.35)}
+    .section{margin-top:16px}
+    .section h3{margin:0 0 10px;font-size:16px}
+    .list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    @media(max-width:650px){.list{grid-template-columns:1fr}}
+    .item{border:1px solid var(--line); border-radius:16px; padding:12px; background:rgba(11,18,32,.35)}
+    .item b{display:block}
+    .item small{color:var(--muted)}
+    form{display:grid;gap:10px}
+    input,select,textarea{width:100%; padding:12px 12px; border-radius:14px; border:1px solid var(--line); background:rgba(11,18,32,.55); color:var(--text); outline:none}
+    textarea{min-height:92px; resize:vertical}
+    .row{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+    @media(max-width:650px){.row{grid-template-columns:1fr}}
+    .fine{font-size:12px;color:var(--muted);line-height:1.5}
+    .footer{margin:22px 0 10px; color:var(--muted); font-size:12px; border-top:1px solid var(--line); padding-top:14px}
+    .floating{position:fixed; right:16px; bottom:16px; display:flex; flex-direction:column; gap:10px; z-index:60}
+    .fab{width:52px;height:52px;border-radius:18px; display:grid; place-items:center; text-decoration:none; box-shadow: var(--shadow)}
+    .fab.call{background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#06101e}
+    .fab.wa{background:#22c55e; color:#06101e}
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>Kocaeli Beyaz Eşya Teknik Servis</h1>
+          <p>Arıza Kaydı: <b id="phoneText">0530 543 60 28</b></p>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn" href="#kayit">Arıza Kaydı</a>
+        <a class="btn danger" id="waTop" href="#">WhatsApp</a>
+        <a class="btn primary" id="callTop" href="#">Hemen Ara</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="grid">
+        <div class="card">
+          <div class="pad">
+            <h2>Hızlı Servis • Net Fiyat • Temiz İşçilik</h2>
+            <p class="lead">
+              Çamaşır makinesi, bulaşık makinesi, kurutma makinesi ve buzdolabı arızalarında
+              <b>Kocaeli geneli</b> hızlı destek. Telefonla arıza kaydı oluştur, uygun zamanda servis planlayalım.
+            </p>
+
+            <div class="chips">
+              <div class="chip">İzmit</div><div class="chip">Kartepe</div><div class="chip">Başiskele</div>
+              <div class="chip">Derince</div><div class="chip">Körfez</div><div class="chip">Gebze</div><div class="chip">Yuvacık</div>
+            </div>
+
+            <div class="kpis">
+              <div class="kpi"><b>Aynı gün servis*</b><span>Yoğunluğa göre planlama</span></div>
+              <div class="kpi"><b>Garanti & fatura</b><span>Uygun durumlarda</span></div>
+              <div class="kpi"><b>Şeffaf ücret</b><span>İşlem öncesi bilgilendirme</span></div>
+            </div>
+
+            <p class="fine" style="margin-top:12px;">
+              *Aynı gün servis yoğunluğa ve bölgeye göre değişebilir.
+            </p>
+          </div>
+        </div>
+
+        <aside class="card" id="kayit">
+          <div class="pad">
+            <h3>Arıza Kaydı Oluştur</h3>
+
+            <!-- FORMSPREE: action adresini kendi Formspree endpoint’inle değiştir -->
+            <form method="POST" action="https://formspree.io/f/XXXXYYYY">
+              <div class="row">
+                <input name="ad" placeholder="Ad Soyad" required />
+                <input name="telefon" placeholder="Telefon (örn. 0530...)" required />
+              </div>
+
+              <div class="row">
+                <select name="ilce" required>
+                  <option value="">İlçe Seç</option>
+                  <option>İzmit</option><option>Kartepe</option><option>Başiskele</option>
+                  <option>Derince</option><option>Körfez</option><option>Gebze</option><option>Yuvacık</option>
+                </select>
+
+                <select name="cihaz" required>
+                  <option value="">Cihaz Türü</option>
+                  <option>Çamaşır Makinesi</option>
+                  <option>Bulaşık Makinesi</option>
+                  <option>Kurutma Makinesi</option>
+                  <option>Buzdolabı</option>
+                </select>
+              </div>
+
+              <textarea name="ariza" placeholder="Arıza detayı (örn. su almıyor, E01, soğutmuyor...)" required></textarea>
+
+              <button class="btn primary" type="submit" style="justify-content:center; cursor:pointer;">
+                Kaydı Gönder
+              </button>
+
+              <p class="fine">
+                Not: Form çalışsın diye Formspree hesabından aldığın <b>endpoint</b> linkini
+                <code>action="..."</code> kısmına yapıştırman gerekir.
+              </p>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="pad">
+          <h3>Hizmetler</h3>
+          <div class="list">
+            <div class="item"><b>Çamaşır Makinesi</b><small>Su almıyor • sıkmıyor • ses yapıyor • kaçak</small></div>
+            <div class="item"><b>Bulaşık Makinesi</b><small>Yıkamıyor • su boşaltmıyor • hata kodları</small></div>
+            <div class="item"><b>Kurutma Makinesi</b><small>Kurutmuyor • koku • filtre/kanal temizliği</small></div>
+            <div class="item"><b>Buzdolabı</b><small>Soğutmuyor • buz yapıyor • fan/ses • gaz kontrol</small></div>
+          </div>
+
+          <p class="fine" style="margin-top:12px;">
+            <b>Marka Bilgilendirme:</b> Sitede geçen marka isimleri/logoları sadece bilgilendirme amaçlıdır.
+            Markalarla doğrudan bir bağlantımız yoktur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="pad">
+          <h3>Sık Sorulan 3 Soru</h3>
+          <div class="list">
+            <div class="item">
+              <b>Ücret nasıl belirleniyor?</b>
+              <small>Arıza tespiti + parça + işçilik. İşleme başlamadan önce bilgi verilir.</small>
+            </div>
+            <div class="item">
+              <b>Ne kadar sürede gelirsiniz?</b>
+              <small>İlçe/yoğunluğa göre aynı gün veya uygun randevu ile.</small>
+            </div>
+            <div class="item">
+              <b>Garantili işlem var mı?</b>
+              <small>Uygun durumlarda işlem/parça bazlı garanti sunulabilir.</small>
+            </div>
+            <div class="item">
+              <b>Hızlı kayıt nasıl?</b>
+              <small>WhatsApp’tan model + arıza + ilçe yazman yeterli.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      © <span id="y"></span> Kocaeli Beyaz Eşya Teknik Servis • Telefon: 0530 543 60 28 • Kocaeli, Türkiye
+    </div>
+  </main>
+
+  <div class="floating">
+    <a class="fab wa" id="waFab" href="#" aria-label="WhatsApp">WA</a>
+    <a class="fab call" id="callFab" href="#" aria-label="Ara">☎</a>
+  </div>
+
+  <script>
+    const PHONE_RAW = "05305436028";
+    const PHONE_SHOW = "0530 543 60 28";
+    const WA_TEXT = encodeURIComponent("Merhaba, Kocaeli’de servis için arıza kaydı oluşturmak istiyorum.\nİlçe:\nCihaz:\nMarka/Model:\nArıza:\nAdres:");
+    const WA_LINK = `https://wa.me/90${PHONE_RAW}?text=${WA_TEXT}`;
+    const TEL_LINK = `tel:+90${PHONE_RAW}`;
+
+    document.getElementById("phoneText").textContent = PHONE_SHOW;
+    document.getElementById("waTop").href = WA_LINK;
+    document.getElementById("waFab").href = WA_LINK;
+    document.getElementById("callTop").href = TEL_LINK;
+    document.getElementById("callFab").href = TEL_LINK;
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
